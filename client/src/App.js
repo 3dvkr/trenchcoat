@@ -1,5 +1,6 @@
 import './App.css';
 import NavBar from './components/NavBar';
+import { Form } from './components/Form';
 function App() {
   return (
     <div className="App">
@@ -15,8 +16,8 @@ function App() {
           three corgis, or if you're ready to apply
         </p>
       </div>
+      <Form />
     </div>
   );
 }
-
 export default App;
